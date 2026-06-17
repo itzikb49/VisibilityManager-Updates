@@ -1,15 +1,15 @@
 {
-  "latestVersion": "1.0.0",
-  "releaseDate": "2025-12-18",
-  "downloadUrl": "https://apps.autodesk.com/RVT/en/Detail/Index?id=86829825165892815106",
+  "latestVersion": "1.0.1",
+  "releaseDate": "2026-06-17",
+  "downloadUrl": "https://apps.autodesk.com/RVT/en/Detail/Index?id=8682982516589281506",
   "changelog": [
-    "• Initial release",
-    "• Filter copying between views and templates",
-    "• VG overrides support",
-    "• Excel export/import (XLSX format)",
-    "• Pattern support (PAT files)",
-    "• Revit 2023-2026 compatibility"
+    "Fixed: COPY now correctly handles source views with View Templates",
+    "Fixed: Template/View Type selection now correctly selects and deselects all items",
+    "Fixed: Export gracefully handles locked files with retry option",
+    "Fixed: Entitlement API and App Store link compatibility",
+    "Added: Support for Engineering Plans, Area Plans, and Detail Views"
   ],
   "criticalUpdate": false,
   "minimumVersion": "1.0.0"
+}
 }
